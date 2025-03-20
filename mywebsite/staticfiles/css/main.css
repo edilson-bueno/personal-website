@@ -1,11 +1,9 @@
 body{
 	background-color:#F8F8F8!important;
 }
-
 #profile-wrapper{
 	text-align: center;
 }
-
 #profile-pic{
 	width:150px;
 	height: 150px;
@@ -13,19 +11,49 @@ body{
 	margin-left: auto;
   	margin-right: auto;
 }
-
 ul{
 	padding: 0;
     list-style-type: none;
 }
-
-
 .social-links ul, li{
 	list-style-type:none;
 	display: inline-block;
 }
-
 .social{
 	width:20px;
 	height: 20px;
+}
+h4 {
+	 font-style: "montserrat", sans-serif;
+	color:black;
+	}
+p{
+	font-style: "montserrat", sans-serif;
+	font-size: auto;
+	color:black;
+	line-height: auto;
+}
+footer{
+	font-style: "montserrat", sans-serif;
+	font-size: auto;
+	color:black;
+	text-align: center;
+}
+.social-links {
+    list-style: none;  
+    padding: 0;
+    display: flex;
+    gap: 10px; 
+}
+.social-links li a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out; 
+}
+.social-links li a img {
+    width: 40px; 
+    height: auto; 
+    border-radius: 5px; 
+}
+.social-links li a:hover {
+    transform: scale(1.1); 
 }
